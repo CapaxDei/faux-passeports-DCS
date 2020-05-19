@@ -1,0 +1,14 @@
+{
+  "name": "37c4a8b8cd704fbc",
+  "main": "37c4a8b8cd704fbc@318.js",
+  "version": "318.0.0",
+  "homepage": "https://observablehq.com/d/37c4a8b8cd704fbc",
+  "author": {
+    "name": "capaxdei",
+    "url": "https://observablehq.com/@capaxdei"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

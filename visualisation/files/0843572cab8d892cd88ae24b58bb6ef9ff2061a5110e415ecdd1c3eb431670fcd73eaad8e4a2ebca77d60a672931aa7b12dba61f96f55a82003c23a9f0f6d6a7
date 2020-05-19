@@ -1,0 +1,154 @@
+source,target,value,Percent
+Passports from Australia,are sent by a resident in Canada,1,0.03
+Passports from Australia,are sent by a resident in Germany,16,0.5
+Passports from Australia,are sent by a resident in Netherlands,1,0.03
+Passports from Australia,are sent by a resident in United Kingdom,4,0.13
+Passports from Australia,are sent by a resident in United States,3,0.09
+Passports from Australia,are sent by a resident somewhere,1,0.03
+Passports from Canada,are sent by a resident in Germany,7,0.22
+Passports from Canada,are sent by a resident in United States,11,0.35
+Passports from Canada,are sent by a resident somewhere,1,0.03
+Passports from Croatia,are sent by a resident in United States,1,0.03
+Passports from Denmark,are sent by a resident in United States,1,0.03
+Passports from France,are sent by a resident in Germany,2,0.06
+Passports from France,are sent by a resident in Netherlands,1,0.03
+Passports from France,are sent by a resident in United Kingdom,1,0.03
+Passports from France,are sent by a resident in United States,1,0.03
+Passports from Germany,are sent by a resident in Belgium,1,0.03
+Passports from Germany,are sent by a resident in Germany,13,0.41
+Passports from Germany,are sent by a resident in United Kingdom,1,0.03
+Passports from Germany,are sent by a resident in United States,3,0.09
+Passports from Germany,are sent by a resident somewhere,1,0.03
+Passports from Italy,are sent by a resident in Netherlands,1,0.03
+Passports from Italy,are sent by a resident in United Kingdom,1,0.03
+Passports from Italy,are sent by a resident in United States,3,0.09
+Passports from Italy,are sent by a resident somewhere,1,0.03
+Passports from Malta,are sent by a resident in United States,1,0.03
+Passports from Netherlands,are sent by a resident in Netherlands,1,0.03
+Passports from Netherlands,are sent by a resident in United Kingdom,1,0.03
+Passports from Poland,are sent by a resident in Germany,2,0.06
+Passports from Poland,are sent by a resident in United States,1,0.03
+Passports from Romania,are sent by a resident in United States,1,0.03
+Passports from Slovenia,are sent by a resident in United States,1,0.03
+Passports from Sweden,are sent by a resident in United States,1,0.03
+Passports from Switzerland,are sent by a resident in Germany,5,0.16
+Passports from Switzerland,are sent by a resident in United States,5,0.16
+Passports from Turkey,are sent by a resident in United States,3,0.09
+Passports from Turkey,are sent by a resident somewhere,1,0.03
+Passports from Worldwide,are sent by a resident in Germany,6,0.19
+Passports from Worldwide,are sent by a resident in United Kingdom,4,0.13
+Passports from Worldwide,are sent by a resident in United States,9,0.28
+Passports without specified nationality,are sent by a resident in Australia,13,0.41
+Passports without specified nationality,are sent by a resident in Austria,22,0.69
+Passports without specified nationality,are sent by a resident in Belgium,23,0.72
+Passports without specified nationality,are sent by a resident in Canada,3,0.09
+Passports without specified nationality,are sent by a resident in France,5,0.16
+Passports without specified nationality,are sent by a resident in Germany,181,5.7
+Passports without specified nationality,are sent by a resident in Netherlands,34,1.07
+Passports without specified nationality,are sent by a resident in Russian Federation,8,0.25
+Passports without specified nationality,are sent by a resident in United Kingdom,51,1.61
+Passports without specified nationality,are sent by a resident in United States,483,15.2
+Passports without specified nationality,are sent by a resident somewhere,119,3.75
+are sent by a resident in Australia,shipped from Australia,4,0.13
+are sent by a resident in Australia,shipped from Estonia,1,0.03
+are sent by a resident in Australia,shipped from France,2,0.06
+are sent by a resident in Australia,shipped from Germany,3,0.09
+are sent by a resident in Australia,shipped from Italy,2,0.06
+are sent by a resident in Australia,shipped from United States,1,0.03
+are sent by a resident in Austria,shipped from Austria,22,0.69
+are sent by a resident in Belgium,shipped from Belgium,8,0.25
+are sent by a resident in Belgium,shipped from United States,16,0.5
+are sent by a resident in Canada,shipped from Australia,1,0.03
+are sent by a resident in Canada,shipped from Germany,1,0.03
+are sent by a resident in Canada,shipped from Lebanon,1,0.03
+are sent by a resident in Canada,shipped from United Kingdom,1,0.03
+are sent by a resident in France,shipped from France,5,0.16
+are sent by a resident in Germany,shipped from Australia,3,0.09
+are sent by a resident in Germany,shipped from Canada,1,0.03
+are sent by a resident in Germany,shipped from France,23,0.72
+are sent by a resident in Germany,shipped from Germany,177,5.57
+are sent by a resident in Germany,shipped from Poland,1,0.03
+are sent by a resident in Germany,shipped from Spain,3,0.09
+are sent by a resident in Germany,shipped from United Kingdom,20,0.63
+are sent by a resident in Germany,shipped from somewhere,1,0.03
+are sent by a resident in Netherlands,shipped from Netherlands,33,1.04
+are sent by a resident in Netherlands,shipped from United States,1,0.03
+are sent by a resident in Netherlands,shipped from somewhere,3,0.09
+are sent by a resident in Russian Federation,shipped from Russian Federation,8,0.25
+are sent by a resident in United Kingdom,shipped from United Kingdom,60,1.89
+are sent by a resident in United Kingdom,shipped from United States,3,0.09
+are sent by a resident in United States,shipped from Australia,3,0.09
+are sent by a resident in United States,shipped from Austria,2,0.06
+are sent by a resident in United States,shipped from Canada,1,0.03
+are sent by a resident in United States,shipped from France,2,0.06
+are sent by a resident in United States,shipped from Germany,24,0.76
+are sent by a resident in United States,shipped from Turkey,1,0.03
+are sent by a resident in United States,shipped from United Kingdom,16,0.5
+are sent by a resident in United States,shipped from United States,458,14.42
+are sent by a resident in United States,shipped from somewhere,16,0.5
+are sent by a resident somewhere,shipped from Austria,2,0.06
+are sent by a resident somewhere,shipped from Belgium,5,0.16
+are sent by a resident somewhere,shipped from Brazil,1,0.03
+are sent by a resident somewhere,shipped from Canada,1,0.03
+are sent by a resident somewhere,shipped from China,2,0.06
+are sent by a resident somewhere,shipped from Cuba,2,0.06
+are sent by a resident somewhere,shipped from Denmark,1,0.03
+are sent by a resident somewhere,shipped from Dominica,1,0.03
+are sent by a resident somewhere,shipped from France,1,0.03
+are sent by a resident somewhere,shipped from Germany,30,0.94
+are sent by a resident somewhere,shipped from Greece,1,0.03
+are sent by a resident somewhere,shipped from Ireland,1,0.03
+are sent by a resident somewhere,shipped from Italy,3,0.09
+are sent by a resident somewhere,shipped from Netherlands,1,0.03
+are sent by a resident somewhere,shipped from New Zealand,1,0.03
+are sent by a resident somewhere,shipped from Spain,2,0.06
+are sent by a resident somewhere,shipped from Switzerland,1,0.03
+are sent by a resident somewhere,shipped from Thailand,1,0.03
+are sent by a resident somewhere,shipped from United Kingdom,26,0.82
+are sent by a resident somewhere,shipped from United States,7,0.22
+are sent by a resident somewhere,shipped from somewhere,30,0.94
+shipped from Australia,sent to Australia,3,0.09
+shipped from Australia,sent to Worldwide,8,0.25
+shipped from Austria,sent to Europe,10,0.31
+shipped from Austria,sent to Worldwide,16,0.5
+shipped from Belgium,sent to Worldwide,13,0.41
+shipped from Brazil,sent to Worldwide,1,0.03
+shipped from Canada,sent to Worldwide,3,0.09
+shipped from China,sent to Worldwide,2,0.06
+shipped from Cuba,sent to Worldwide,2,0.06
+shipped from Denmark,sent to Worldwide,1,0.03
+shipped from Dominica,sent to Worldwide,1,0.03
+shipped from Estonia,sent to Worldwide,1,0.03
+shipped from France,sent to Europe,1,0.03
+shipped from France,sent to France,1,0.03
+shipped from France,sent to Worldwide,31,0.98
+shipped from Germany,sent to Europe,20,0.63
+shipped from Germany,sent to Germany,8,0.25
+shipped from Germany,sent to North America,1,0.03
+shipped from Germany,sent to Worldwide,200,6.3
+shipped from Germany,sent to somewhere,7,0.22
+shipped from Greece,sent to Worldwide,1,0.03
+shipped from Ireland,sent to Worldwide,1,0.03
+shipped from Italy,sent to Worldwide,5,0.16
+shipped from Lebanon,sent to Worldwide,1,0.03
+shipped from Netherlands,sent to Europe,13,0.41
+shipped from Netherlands,sent to Worldwide,21,0.66
+shipped from New Zealand,sent to Worldwide,1,0.03
+shipped from Poland,sent to Worldwide,1,0.03
+shipped from Russian Federation,sent to Worldwide,8,0.25
+shipped from Spain,sent to Worldwide,5,0.16
+shipped from Switzerland,sent to Worldwide,1,0.03
+shipped from Thailand,sent to Worldwide,1,0.03
+shipped from Turkey,sent to Worldwide,1,0.03
+shipped from United Kingdom,sent to Europe,1,0.03
+shipped from United Kingdom,sent to United Kingdom,5,0.16
+shipped from United Kingdom,sent to United States,1,0.03
+shipped from United Kingdom,sent to Worldwide,119,3.75
+shipped from United States,sent to Europe,11,0.35
+shipped from United States,sent to Italy,1,0.03
+shipped from United States,sent to North America,1,0.03
+shipped from United States,sent to United States,44,1.38
+shipped from United States,sent to Worldwide,425,13.38
+shipped from United States,sent to somewhere,7,0.22
+shipped from somewhere,sent to Worldwide,45,1.42
+shipped from somewhere,sent to somewhere,18,0.57
