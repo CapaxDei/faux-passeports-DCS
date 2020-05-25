@@ -7,14 +7,14 @@ export default function define(runtime, observer) {
 md`# Géographie de la vente de faux passports en ligne
     
     Voici un diagramme de Sankey représentant les pays impliqués dnas la distribution de faux passports en vente sur un site du darkweb.
-    A partir de crawlings et de parsings d'un crypto-marché réalisés entre octobre et novembre 2019, 
+    A partir d'acquisistion et d'analyses de données d'un crypto-marché réalisées entre octobre et novembre 2019, 
     nous avons récoltés 4 indicateurs géographiques distincts : 
 
-    - les nationalités des passports, c'est-à-dire les nationalités représentées par les faux-papiers vendus
-    - le pays de résidence des vendeurs enregistrés 
+    - Les nationalités des passports, c'est-à-dire les nationalités représentées sur les faux passports vendus.
+    - Le pays de résidence des vendeurs enregistrés, indiqués sur leur page de profil.
     - Le pays d'envoi sont indiqués par les vendeurs dans un champ particulier de la page web. 
     - Les possibles destinations des passports étaient indiqués dans le corps de l'annonce. 
-    Pour cette raison, les destinations ont ont dû être extraits manuellement, tout comme les nationalités représentés.
+    Pour cette raison, les destinations ont dû être extraits manuellement, tout comme les nationalités représentées.
     
     Toutes ces données sont renseignées volontairement par le vendeur et sont donc à analyser avec précaution.
     Passez votre souris sur les éléments pour connaitre le nombres de passports exacts. 
