@@ -1,7 +1,7 @@
 # faux-passeports-DCS
  Diagramme de Sankey représentant les flux géographiques des faux passeports vendus sur le darkweb
 
-Cette visualisation originale a été choisi car elle est compréhensible de manière instinctive et permet de visualiser particulièrement bien les flux. Le but était de mettre en valeur les différents marqueurs géographiques impliqués lors de la vente d'un faux passport sur un site du darkweb. Chaque passport a obligatoirement 4 marqueurs géographiques, ce qui crée trois "noeuds" par annonce. Un noeud est composé d'un marqueur d'origine et d'un marqueur de destination, ainsi que d'une épaisseur représentant le nombre d'annonces présentant ce binôme. 
+Cette visualisation originale a été choisi car elle est compréhensible de manière instinctive et permet de visualiser particulièrement bien les flux. Le but était de mettre en valeur les différents marqueurs géographiques impliqués lors de la vente d'un faux passport sur un site du darkweb. Chaque passport a obligatoirement 4 marqueurs géographiques, ce qui crée trois "noeuds" par annonce. Chaque nationalité de passport proposée est assimilée à une offre de passport. Ainsi, lorsqu'une annonce propose plusieurs passports de nationalités différentes, chacun est considéré comme une annonce. Un noeud de diagramme est composé d'un marqueur d'origine et d'un marqueur de destination, ainsi que d'une épaisseur représentant le nombre d'annonces où ce binôme de marqueurs est présent. 
 
 Ce diagramme a été crée en 3 grandes étapes :
 
