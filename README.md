@@ -13,7 +13,7 @@ le script create-dataset.py permet d'extraire les données nécessaires à la vi
 
 ## création du diagramme de Sankey 
 La visualisation a été créé en javascript en s'inspirant d'un modèle trouvé sur ObservableHQ https://observablehq.com/@d3/sankey-diagram 
-Notre visualisation peut également être visionnée sur ce site à l'adresse https://observablehq.com/d/37c4a8b8cd704fbc@318
+Notre visualisation peut également être visionnée sur ce site à l'adresse https://observablehq.com/d/37c4a8b8cd704fbc
 
 Pour visualiser le Diagramme de Sankey depuis github, il suffit d'ouvrir index.html dans un navigateur. On peut ensuite passer la souris sur chaque noeud et chaque flux pour connaitre le nombre d'annonces représentées.
 
