@@ -4,22 +4,23 @@ export default function define(runtime, observer) {
   const fileAttachments = new Map([["passport_dataset@1.csv",new URL("./files/0843572cab8d892cd88ae24b58bb6ef9ff2061a5110e415ecdd1c3eb431670fcd73eaad8e4a2ebca77d60a672931aa7b12dba61f96f55a82003c23a9f0f6d6a7",import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], function(md){return(
-md`# Géographie de la vente de faux passports en ligne
+md`# Géographie de la vente de faux passeports en ligne
     
-    Voici un diagramme de Sankey représentant les pays impliqués dnas la distribution de faux passports en vente sur un site du darkweb.
-    A partir d'acquisistion et d'analyses de données d'un crypto-marché réalisées entre octobre et novembre 2019, 
-    nous avons récoltés 4 indicateurs géographiques distincts : 
+Voici un diagramme de Sankey représentant les pays impliqués dans la distribution de faux passeports en vente sur un site du darkweb.
+A partir d'acquisition et d'analyses de données d'un cryptomarché réalisées entre octobre et novembre 2019, 
+nous avons récoltés 4 indicateurs géographiques distincts : 
 
-    - Les nationalités des passports, c'est-à-dire les nationalités représentées sur les faux passports vendus.
-    - Le pays de résidence des vendeurs enregistrés, indiqués sur leur page de profil.
-    - Le pays d'envoi sont indiqués par les vendeurs dans un champ particulier de la page web. 
-    - Les possibles destinations des passports étaient indiqués dans le corps de l'annonce. 
-    Pour cette raison, les destinations ont dû être extraits manuellement, tout comme les nationalités représentées.
-    
-    Toutes ces données sont renseignées volontairement par le vendeur et sont donc à analyser avec précaution.
-    Passez votre souris sur les éléments pour connaitre le nombres de passports exacts. 
-    
-    L'échantillon analysé est de 1100 annonces environ.
+- Les nationalités des passeports, c'est-à-dire les nationalités représentées sur les faux passeports vendus.
+- Le pays de résidence des vendeurs enregistrés, indiqués sur leur page de profil.
+- Le pays d'envoi sont indiqués par les vendeurs dans un champ particulier de la page web. 
+- Les possibles destinations des passeports étaient indiquées dans le corps de l'annonce. 
+Pour cette raison, les destinations ont dû être extraits manuellement, tout comme les nationalités représentées.
+
+Toutes ces données sont renseignées volontairement par le vendeur et sont donc à analyser avec précaution.
+Passez votre souris sur les éléments pour connaitre le nombre de passeports exacts. 
+
+Le graphique représente 1061 annonces de passeports, proposées par 110 vendeurs différents.
+
     `
 )});
   main.variable(observer("viewof edgeColor")).define("viewof edgeColor", ["html","URLSearchParams"], function(html,URLSearchParams){return(
@@ -33,17 +34,7 @@ Object.assign(html`<select>
 })
 )});
   main.variable(observer("edgeColor")).define("edgeColor", ["Generators", "viewof edgeColor"], (G, _) => G.input(_));
-  main.variable(observer("viewof align")).define("viewof align", ["html","URLSearchParams"], function(html,URLSearchParams){return(
-Object.assign(html`<select>
-  <option value=left>Left-aligned
-  <option value=right>Right-aligned
-  <option value=center>Centered
-  <option value=justify selected>Justified
-</select>`, {
-  value: new URLSearchParams(html`<a href>`.search).get("align") || "justify"
-})
-)});
-  main.variable(observer("align")).define("align", ["Generators", "viewof align"], (G, _) => G.input(_));
+  
   main.variable(observer("chart")).define("chart", ["d3","width","height","sankey","data","color","format","edgeColor","DOM"], function(d3,width,height,sankey,data,color,format,edgeColor,DOM)
 {
   const svg = d3.create("svg")
@@ -114,11 +105,10 @@ Object.assign(html`<select>
   return svg.node();
 }
 );
-  main.variable(observer("sankey")).define("sankey", ["d3","align","width","height"], function(d3,align,width,height)
+  main.variable(observer("sankey")).define("sankey", ["d3","width","height"], function(d3,width,height)
 {
   const sankey = d3.sankey()
       .nodeId(d => d.name)
-      .nodeAlign(d3[`sankey${align[0].toUpperCase()}${align.slice(1)}`])
       .nodeWidth(15)
       .nodePadding(10)
       .extent([[1, 5], [width - 1, height - 5]]);
